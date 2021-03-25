@@ -1,0 +1,13 @@
+#!/bin/bash
+#PBS -N exercise2
+#PBS -l nodes=2:ppn=2
+#PBS -l walltime=00:20:00
+#PBS -q pace-ice
+#PBS -o exercise2.log
+#PBS -j oe
+
+# code start here
+cd lab23
+
+# run exercise1.sh
+./exercise.sh
